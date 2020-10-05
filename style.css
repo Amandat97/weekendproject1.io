@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: space-evenly
   }
-  #logo{
+#logo{
     height: 6rem;
     width: 1rem;
     border: 2px solid white;
@@ -47,7 +47,7 @@
     text-align: center;
     line-height: 1rem;
   }
-  
+
   .b3{
     position: absolute;
     top: 23%;
@@ -70,7 +70,7 @@
     justify-content: center;
     z-index: 2;
       }
-  
+
   #computer{
     background-image: url('20201003_164433.png');
     height: 100%;
@@ -82,8 +82,8 @@
     left: 23%;
     z-index: 1;
   }
-  
-  #about{
+
+ #about{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,12 +93,12 @@
     top: 95%;
     text-align: center;
     font-size: 1.5rem;
-  }
-  p2{
+ }
+ p2{
    font: grey;
-  }
-  
-  #steps {
+ }
+ 
+#steps {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -110,8 +110,8 @@
     font-size: 1.5rem;
     line-height: 1rem;
   }
-  
-  .step1{ 
+
+.step1{ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,9 +119,9 @@
   justify-content: space-around;
   padding: 10px;
   margin: 15px
-  }
-  
-  .step2{ 
+}
+
+.step2{ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,9 +130,9 @@
   border: 3px solid lightblue;
   padding: 10px;
   margin: 15px
-  }
-  
-  .step3{
+}
+
+.step3{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,9 +140,9 @@
   justify-content: space-around;
   padding: 10px;
   margin: 15px
-  }
-  
-  .step4{ 
+}
+
+.step4{ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,4 +150,95 @@
   justify-content: space-around;
   padding: 10px;
   margin: 15px
+}
+
+  #info{
+    width: 55%;
+    border-top: 1px lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    justify-content: space-around;
+    position: absolute;
+    top: 145%;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+   }
+
+  #blog{
+    border: 1px lightblue;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 145%;
+    line-height: 1rem;
+    margin: 5rem;
+    padding: 5rem;
+  }
+
+  p4{
+    font-size: .85rem;
+    line-height: 1rem;
+  }
+  
+
+  #reviews{
+    border: 1px lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 145%;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin: 5rem;
+  }
+
+  #tweets{
+    border-left: 1px lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 145%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin: 5rem;
+  }
+  #footerbar{
+    height: 15px;
+    width: 100%;
+    color: grey;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    position: absolute;
+    top: 200%;
+  }
+
+  #socialbuttons{
+    height: 15px;
+    width: 100%;
+    color: grey;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    top: 205%;
   }
